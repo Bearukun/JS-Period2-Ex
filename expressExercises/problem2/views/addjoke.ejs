@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+    <form action="/savejoke" method="post">
+        <input type="text" name="joke" id="joke" />
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/">Main page</a>
+    <br>
+    Times viewed: <%= count %>
+</body>
+
+</html>

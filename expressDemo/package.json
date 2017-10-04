@@ -1,0 +1,21 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bear",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.0.1",
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.4"
+  }
+}

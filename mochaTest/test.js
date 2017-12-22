@@ -36,7 +36,7 @@ describe("Testing async behaviour", function(){
 });  */
 
 var expect = require("chai").expect;
-var jokes = require("../module/joke");
+var jokes = require("./module/joke");
 var nock = require("nock");
 var testJoke = {"id": 1234, "joke": "ha ha ha", "reference": "unknown"};
 
